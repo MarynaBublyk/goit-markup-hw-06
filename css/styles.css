@@ -245,16 +245,17 @@ img {
 }
 
 .second-section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .third-section {
   padding-bottom: 120px;
+  display: none;
 }
 
 .fourth-section {
   background-color: var(--cloud);
-  padding: 120px 0;
+  padding: 96px 0;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -265,11 +266,12 @@ img {
 
 .business-strategies {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 
 .menu-item {
-  width: calc((100% - 3 * 24px) / 4);
+  /* width: calc((100% - 3 * 24px) / 4); */
   
 }
 
@@ -285,6 +287,7 @@ img {
   flex-shrink: 0;
   padding: 24px 100px;
   margin-bottom: 8px;
+  display: none;
 }
 
 .strategies-icon {
@@ -296,11 +299,12 @@ img {
 
 .name-menu-item {
   color: var(--navyblue, #2e2f42);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .menu-text {
@@ -308,6 +312,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .title {
@@ -327,17 +332,18 @@ img {
 }
 
 .card-image {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .team-members-list {
-  display: flex;
-  gap: 24px;
+  /* display: flex;  */
+  gap: 72px;
 }
 
 .team-members-item {
   background-color: var(--white);
-  width: calc((100% - 24px * 3) / 4);
+  /* width: calc((100% - 24px * 3) / 4); */
+  width: 100%;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
@@ -886,3 +892,4 @@ align-items: center;
 .submit-modal-btn:focus {
   background: var(--ocean, #404bbf);
 }
+
