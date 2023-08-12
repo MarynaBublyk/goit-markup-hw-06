@@ -256,12 +256,10 @@ img {
 .fourth-section {
   background-color: var(--cloud);
   padding: 96px 0;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .fifth-section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .business-strategies {
@@ -332,18 +330,20 @@ img {
 }
 
 .card-image {
-  margin: 0 auto;
+  margin: 0;
 }
 
 .team-members-list {
-  /* display: flex;  */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 72px;
 }
 
 .team-members-item {
   background-color: var(--white);
   /* width: calc((100% - 24px * 3) / 4); */
-  width: 100%;
+  width: 264px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
@@ -395,12 +395,12 @@ img {
 
 .customers-list {
   display: flex;
-  align-items: flex-start;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px 16px;
 }
 
 .customers-item {
-  width: 168px;
+  width: 190px;
   height: 88px;
   flex-shrink: 0;
 }
@@ -435,17 +435,22 @@ img {
 
 .container.footer-wrap {
   display: flex;
-  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* align-items: baseline; */
 }
 
 .info-container {
-  margin-right: 120px;
+  margin-bottom: 72px;
   
 }
 
 .footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 17.5px;
   color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -469,10 +474,14 @@ img {
 }
 
 .footer-social-media {
-  margin-right: 80px;
+  margin-bottom: 72px;
+    
 }
 
 .social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -513,7 +522,8 @@ img {
 
 .footer-form {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .footer-form:first-child {
@@ -525,7 +535,7 @@ img {
   border-radius: 4px;
   border: 1px solid var(--white, #FFF);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  width: 264px;
+  width: 398px;
   height: 40px;
   padding-left: 16px;  
   font-size: 12px;

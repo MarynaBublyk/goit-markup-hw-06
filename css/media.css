@@ -23,6 +23,51 @@
 .name-menu-item {
     text-align: left;
 }
+
+.team-members-list {
+    gap: 64px 24px;
+}
+
+.customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.footer-wrap {
+width: 100%;
+}
+
+.info-container {
+    margin-right: 24px;
+    
+}
+
+.footer-logo {
+    display: inline-block; 
+}
+
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+}
+
+.footer-social-media {
+    margin-top: 
+    
+}
+
+.social-media {
+    justify-content: left;
+
+}
 } 
 
 @media screen and (min-width: 1158px) {
@@ -56,10 +101,47 @@
 
     .fourth-section {
     padding: 120px 0;
-    max-width: 1440px;
 }
     .team-members-list {
     display: flex; 
     gap: 24px;
+}
+
+    .fifth-section {
+    padding: 120px 0;
+}
+.customers-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+    .customers-item {
+    width: 168px;
+    height: 88px;
+    flex-shrink: 0;
+}
+
+.container.footer-wrap {
+    display: flex;
+    align-items: baseline;
+}
+.info-container {
+    margin-right: 120px;
+}
+
+.footer-logo {
+    display: inline-block;
+}
+.footer-social-media {
+    margin-right: 80px;
+}
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
 }
 }
